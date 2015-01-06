@@ -1,0 +1,137 @@
+answer = " "
+score = 0
+puts "Correct answers " + score.to_s
+
+
+puts "1. What is the front part of a boat called?"
+puts "a. Front"
+puts "b. Back"
+puts "c. Bow"
+answer = gets.chomp
+if answer != "c"
+	puts "Sorry wrong answer!"
+	else 
+	puts "That is correct"
+	score = score + 1
+puts "Correct answers " + score.to_s
+end
+
+puts "2. What is the rear part of a boat called?"
+puts "a. Front"
+puts "b. Back"
+puts "c. stern"
+answer = gets.chomp
+if answer != "c"
+	puts "Sorry wrong answer!"
+	else 
+	puts "That is correct"
+	score = score + 1
+puts "Correct answers " + score.to_s
+end
+
+puts "3. What is the controled depth of the Cape Cod Canal?"
+puts "a. 10 feet"
+puts "b. 20 feet"
+puts "c. 30 feet"
+answer = gets.chomp
+if answer != "c"
+	puts "Sorry wrong answer!"
+	else 
+	puts "That is correct"
+	score = score + 1
+puts "Correct answers " + score.to_s
+end
+
+puts "4. What is the name of a common storm in the Northeast?"
+puts "a. Earthquake"
+puts "b. Typhoon"
+puts "c. Nor'easter"
+answer = gets.chomp
+if answer != "c"
+	puts "Sorry wrong answer!"
+	else 
+	puts "That is correct"
+	score = score + 1
+puts "Correct answers " + score.to_s
+end
+
+puts "5. What is the width of the Cape Cod Canal?"
+puts "a. 25 feet"
+puts "b. 100 feet"
+puts "c. 480 feet"
+answer = gets.chomp
+if answer != "c"
+	puts "Sorry wrong answer!"
+	else 
+	puts "That is correct"
+	score = score + 1
+puts "Correct answers " + score.to_s
+end
+
+puts "6. The left side of the boat is called?"
+puts "a. Reverse"
+puts "b. Forward"
+puts "c. Port"
+answer = gets.chomp
+if answer != "c"
+	puts "Sorry wrong answer!"
+	else 
+	puts "That is correct"
+	score = score + 1
+puts "Correct answers " + score.to_s
+end
+
+puts "7. The right side of the boat is?"
+puts "a. Reverse"
+puts "b. Forward"
+puts "c. Starboard"
+answer = gets.chomp
+if answer != "c"
+	puts "Sorry wrong answer!"
+	else 
+	puts "That is correct"
+	score = score + 1
+puts "Correct answers " + score.to_s
+end
+
+puts "8. What US Govt agency owns the Cape Cod Canal?"
+puts "a. Dept of Interior"
+puts "b. Dept of the Treasury"
+puts "c. US Army Corp of Engineers"
+answer = gets.chomp
+if answer != "c"
+	puts "Sorry wrong answer!"
+	else 
+	puts "That is correct"
+	score = score + 1
+puts "Correct answers " + score.to_s
+end
+
+puts "9. What is the lenght of the land cut of the Cape Cod Canal?"
+puts "a. 25 miles"
+puts "b. 15 miles"
+puts "c. 7 miles"
+answer = gets.chomp
+if answer != "c"
+	puts "Sorry wrong answer!"
+	else 
+	puts "That is correct"
+	score = score + 1
+puts "Correct answers " + score.to_s
+end
+
+puts "10. What color should the buoy be on your starboard side, when returning to port?"
+puts "a. white"
+puts "b. green"
+puts "c. red"
+answer = gets.chomp
+if answer != "c"
+	puts "Sorry wrong answer!"
+	else 
+	puts "That is correct"
+	score = score + 1
+puts "Correct answers " + score.to_s
+end
+
+
+
